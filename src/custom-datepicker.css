@@ -1,0 +1,109 @@
+/* Professional Calendar Styles */
+.react-datepicker {
+    font-family: 'Inter', sans-serif; /* Modern professional font */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header - Professional look */
+.react-datepicker__header {
+    background-color: #f7f8fa;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Current Month Styling */
+.react-datepicker__current-month {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+/* Navigation Arrows */
+.react-datepicker__navigation {
+    border: none;
+    background: none;
+    color: #666;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.react-datepicker__navigation--previous, .react-datepicker__navigation--next {
+    padding: 5px;
+    transition: color 0.2s ease-in-out;
+}
+
+.react-datepicker__navigation--previous:hover, .react-datepicker__navigation--next:hover {
+    color: #2D3748; /* Darker hover state */
+}
+
+/* Date Grid */
+.react-datepicker__day {
+    padding: 8px;
+    margin: 4px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+/* Hover and Selected States */
+.react-datepicker__day:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.react-datepicker__day--selected {
+    background-color: #007bff; /* Soft blue selection */
+    color: white;
+    border-radius: 6px;
+}
+
+/* Outside Month Days */
+.react-datepicker__day--outside-month {
+    color: #ccc;
+}
+
+/* Today Button */
+.react-datepicker__today-button {
+    display: none; /* Hides the Today button */
+}
+
+/* Popper Styling */
+.react-datepicker__popper {
+    z-index: 9999 !important;
+}
+
+/* Date Picker Input */
+.datepicker-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #fff;
+    transition: border 0.2s ease-in-out;
+}
+
+.datepicker-input:focus {
+    border: 1px solid #007bff;
+    outline: none;
+}
+
+/* Calendar Popup */
+.professional-datepicker {
+    padding: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    z-index: 9999 !important;
+    max-width: 350px;
+    width: 100%;
+}

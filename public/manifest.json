@@ -1,0 +1,20 @@
+{
+  "short_name": "2K-Event",
+  "name": "2K-Event",
+  "icons": [
+    {
+      "src": "logot.png",
+      "type": "image/png",
+      "sizes": "332x32"
+    },
+    {
+      "src": "mainlogo.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    } 
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "red"
+}

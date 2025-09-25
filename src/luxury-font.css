@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+.luxury-font {
+    font-family: 'Playfair Display', serif;
+}
+
+.luxury-header {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #1e293b; /* Dark slate blue for sophistication */
+}
